@@ -1,0 +1,23 @@
+# Node.js 依赖
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Puppeteer 本地 Chromium 缓存（如果使用 puppeteer 而非 puppeteer-core）
+.puppeteer/
+.local-chromium/
+
+# 环境变量（避免上传敏感信息）
+.env
+.env.local
+
+# IDE/编辑器文件
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Railway 相关（如果有）
+.railway/
